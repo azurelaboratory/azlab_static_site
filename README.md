@@ -1,0 +1,1 @@
+# azlab_static_site
