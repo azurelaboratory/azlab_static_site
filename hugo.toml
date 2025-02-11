@@ -1,0 +1,5 @@
+baseURL = 'https://lab.rodstewart.io/'
+languageCode = 'en-us'
+title = 'rodstewart.io'
+theme = 'diary'
+enableEmoji = true

@@ -1,16 +1,12 @@
 {
   "name": "Hugo & pnpm",
-
   "build": {
     "dockerfile": "Dockerfile"
   },
-
   // 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
   // "features": { "ghcr.io/devcontainers/features/docker-in-docker:2": {} },
-
   // 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
-
   // Configure tool-specific properties.
   "customizations": {
     // Configure properties specific to VS Code.
@@ -31,9 +27,7 @@
         "eliostruyf.vscode-hugo-themer",
         // https://marketplace.visualstudio.com/items?itemName=kaellarkin.hugo-shortcode-syntax
         "kaellarkin.hugo-shortcode-syntax",
-
         // "csstools.postcss",
-
         // "esbenp.prettier-vscode",
         // "tamasfe.even-better-toml",
         // "naumovs.color-highlight",
@@ -44,26 +38,32 @@
       ]
     }
   },
-
   "remoteUser": "vscode",
-
-"postCreateCommand": "pnpm install-completion zsh",
-"features": {
-	"ghcr.io/devcontainers/features/azure-cli:1": {
-		"installBicep": true,
-		"version": "latest"
-	},
-	"ghcr.io/hspaans/devcontainer-features/pymarkdownlnt:1": {
-		"version": "latest"
-	},
-	"ghcr.io/devcontainers-extra/features/act:1": {
-		"version": "latest"
-	},
-	"ghcr.io/devcontainers-extra/features/actionlint:1": {
-		"version": "latest"
-	},
-	"ghcr.io/devcontainers-extra/features/azure-apiops:1": {
-		"version": "latest"
-	}
-}
+  "postCreateCommand": "pnpm install-completion zsh",
+  "features": {
+    "ghcr.io/devcontainers/features/azure-cli:1": {
+      "installBicep": true,
+      "version": "latest"
+    },
+    "ghcr.io/hspaans/devcontainer-features/pymarkdownlnt:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers-extra/features/act:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers-extra/features/actionlint:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers-extra/features/azure-apiops:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/terraform:1": {
+      "installSentinel": true,
+      "installTFsec": true,
+      "installTerraformDocs": true,
+      "version": "latest",
+      "tflint": "latest",
+      "terragrunt": "latest"
+    }
+  }
 }
