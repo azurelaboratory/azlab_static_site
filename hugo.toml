@@ -1,5 +1,5 @@
-baseURL = 'https://azurelaboratory.com/'
+baseURL = 'https://lab.rodstewart.io/'
 languageCode = 'en-us'
-title = 'Azure Laboratory'
+title = 'rodstewart.io'
 theme = 'diary'
 enableEmoji = true
