@@ -1,0 +1,364 @@
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure Laboratory</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Azure Laboratory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Azure API Management and APIOps: A Modern Approach to API Lifecycle Management</title>
+        <link>http://localhost:1313/posts/my-first-post/</link>
+        <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-first-post/</guid>
+        <description>Azure Laboratory http://localhost:1313/posts/my-first-post/ -&lt;p&gt;&lt;em&gt;&lt;strong&gt;AI GENERATED CONTENT TO SERVE AS A PLACEHOLDER - NOT REAL CONTENT&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In today&amp;rsquo;s rapidly evolving digital landscape, APIs have become the backbone of modern applications and services. As organizations scale their API infrastructure, managing the complete API lifecycle becomes increasingly complex. This is where Azure API Management (APIM) and APIOps come into play, offering a robust solution for API lifecycle management and automation.&lt;/p&gt;
+&lt;h2 id=&#34;understanding-apiops&#34;&gt;Understanding APIOps&lt;/h2&gt;
+&lt;p&gt;APIOps, an extension of GitOps principles applied to API management, represents a set of practices that combine API development with operations. It emphasizes automation, collaboration, and continuous improvement throughout the API lifecycle. By incorporating APIOps practices, organizations can achieve faster time-to-market, improved quality, and consistent API governance.&lt;/p&gt;
+&lt;h2 id=&#34;azure-api-management-as-your-apiops-foundation&#34;&gt;Azure API Management as Your APIOps Foundation&lt;/h2&gt;
+&lt;p&gt;Azure API Management provides a comprehensive platform that serves as an excellent foundation for implementing APIOps practices. Here&amp;rsquo;s how APIM supports key aspects of APIOps:&lt;/p&gt;
+&lt;h3 id=&#34;infrastructure-as-code-iac&#34;&gt;Infrastructure as Code (IaC)&lt;/h3&gt;
+&lt;p&gt;APIM resources can be defined and managed using Azure Resource Manager (ARM) templates or Bicep files. This allows you to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Version control your API infrastructure&lt;/li&gt;
+&lt;li&gt;Implement repeatable deployments across environments&lt;/li&gt;
+&lt;li&gt;Maintain consistency in configuration&lt;/li&gt;
+&lt;li&gt;Automate resource provisioning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;api-version-control&#34;&gt;API Version Control&lt;/h3&gt;
+&lt;p&gt;APIM supports API versioning through:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Git integration for API definitions&lt;/li&gt;
+&lt;li&gt;Version-specific endpoints&lt;/li&gt;
+&lt;li&gt;Path-based and header-based versioning strategies&lt;/li&gt;
+&lt;li&gt;Automated version management through CI/CD pipelines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;automated-testing-and-validation&#34;&gt;Automated Testing and Validation&lt;/h3&gt;
+&lt;p&gt;Implement comprehensive testing strategies:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use Azure DevOps pipelines for automated API testing&lt;/li&gt;
+&lt;li&gt;Leverage Newman for Postman collection execution&lt;/li&gt;
+&lt;li&gt;Implement contract testing with tools like Pact&lt;/li&gt;
+&lt;li&gt;Validate API specifications against style guidelines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;implementing-apiops-with-azure-api-management&#34;&gt;Implementing APIOps with Azure API Management&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s a practical approach to implementing APIOps using Azure API Management:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Source Control Integration&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Store your API definitions, policies, and infrastructure code in a Git repository. This provides version control and enables collaboration among team members.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Environment Management&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Create separate APIM instances for development, testing, and production environments. Use naming conventions and tags to maintain clarity and organization.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CI/CD Pipeline Setup&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Configure your Azure DevOps pipelines to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Validate API specifications&lt;/li&gt;
+&lt;li&gt;Deploy API definitions and policies&lt;/li&gt;
+&lt;li&gt;Run automated tests&lt;/li&gt;
+&lt;li&gt;Generate documentation&lt;/li&gt;
+&lt;li&gt;Promote changes between environments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Monitoring and Observability&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Implement comprehensive monitoring using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Application Insights integration&lt;/li&gt;
+&lt;li&gt;Custom metrics and dashboards&lt;/li&gt;
+&lt;li&gt;Alert rules for proactive monitoring&lt;/li&gt;
+&lt;li&gt;Logging and diagnostics settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;best-practices-for-apiops-implementation&#34;&gt;Best Practices for APIOps Implementation&lt;/h2&gt;
+&lt;p&gt;When implementing APIOps with Azure API Management, consider these best practices:&lt;/p&gt;
+&lt;h3 id=&#34;policy-management&#34;&gt;Policy Management&lt;/h3&gt;
+&lt;p&gt;Maintain API policies as code and implement a hierarchical policy structure:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Global policies for organization-wide standards&lt;/li&gt;
+&lt;li&gt;Product-level policies for specific API groups&lt;/li&gt;
+&lt;li&gt;API-level policies for individual APIs&lt;/li&gt;
+&lt;li&gt;Operation-level policies for specific endpoints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;security-implementation&#34;&gt;Security Implementation&lt;/h3&gt;
+&lt;p&gt;Implement robust security measures:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OAuth 2.0 and OpenID Connect integration&lt;/li&gt;
+&lt;li&gt;Certificate-based authentication&lt;/li&gt;
+&lt;li&gt;IP filtering&lt;/li&gt;
+&lt;li&gt;Rate limiting and quota policies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;documentation&#34;&gt;Documentation&lt;/h3&gt;
+&lt;p&gt;Maintain comprehensive documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use OpenAPI (Swagger) specifications&lt;/li&gt;
+&lt;li&gt;Implement automated documentation generation&lt;/li&gt;
+&lt;li&gt;Include code samples and examples&lt;/li&gt;
+&lt;li&gt;Maintain change logs and release notes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;APIOps with Azure API Management represents a modern approach to API lifecycle management that can significantly improve your organization&amp;rsquo;s API development and deployment processes. By implementing these practices and leveraging Azure API Management&amp;rsquo;s capabilities, you can create a more efficient, secure, and maintainable API infrastructure.&lt;/p&gt;
+&lt;p&gt;Remember that successful APIOps implementation is an iterative process. Start with basic automation and gradually expand your practices as your team becomes more comfortable with the tools and processes. The investment in APIOps will pay dividends through improved efficiency, reduced errors, and better governance of your API ecosystem.&lt;/p&gt;
+&lt;h2 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h2&gt;
+&lt;p&gt;To get started with APIOps and Azure API Management:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Set up a proof-of-concept environment&lt;/li&gt;
+&lt;li&gt;Implement basic CI/CD pipelines&lt;/li&gt;
+&lt;li&gt;Automate API deployments&lt;/li&gt;
+&lt;li&gt;Establish monitoring and alerting&lt;/li&gt;
+&lt;li&gt;Gradually expand automation coverage&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The journey to implementing APIOps may seem daunting, but the benefits of automated, consistent, and well-governed API management make it well worth the effort.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Looking to learn more about APIOps and Azure API Management? Check out the &lt;a href=&#34;https://docs.microsoft.com/en-us/azure/api-management/&#34;&gt;official Azure documentation&lt;/a&gt; and &lt;a href=&#34;https://docs.microsoft.com/en-us/learn/browse/?products=azure-api-management&#34;&gt;Microsoft Learn modules&lt;/a&gt; for detailed guidance and tutorials.&lt;/em&gt;&lt;/p&gt;
+- http://localhost:1313/posts/my-first-post/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Understanding HTTP/3: The Future of Web Protocol</title>
+        <link>http://localhost:1313/posts/my-third-sample-post/</link>
+        <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-third-sample-post/</guid>
+        <description>Azure Laboratory http://localhost:1313/posts/my-third-sample-post/ -&lt;h1 id=&#34;understanding-http3-the-future-of-web-protocol&#34;&gt;Understanding HTTP/3: The Future of Web Protocol&lt;/h1&gt;
+&lt;p&gt;HTTP/3 represents a significant evolution in web protocols, building on lessons learned from HTTP/1.1 and HTTP/2.&lt;/p&gt;
+&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;
+&lt;h3 id=&#34;quic-transport-protocol&#34;&gt;QUIC Transport Protocol&lt;/h3&gt;
+&lt;p&gt;HTTP/3 is built on QUIC, which offers several advantages:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Built-in encryption&lt;/li&gt;
+&lt;li&gt;Reduced latency&lt;/li&gt;
+&lt;li&gt;Connection migration&lt;/li&gt;
+&lt;li&gt;Multiplexing without head-of-line blocking&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;performance-improvements&#34;&gt;Performance Improvements&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s a simple Node.js server using HTTP/3:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;http3&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;require&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;http3&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;server&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;http3&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;createServer&lt;/span&gt;((&lt;span style=&#34;color:#a6e22e&#34;&gt;req&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt;) =&amp;gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;writeHead&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;, { &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Content-Type&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;text/plain&amp;#39;&lt;/span&gt; });
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;res&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;end&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Hello HTTP/3!&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;server&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;listen&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;443&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;comparison-with-http2&#34;&gt;Comparison with HTTP/2&lt;/h3&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;graph TD
+    A[HTTP/2] --&amp;gt;|TCP + TLS| B[Transport]
+    C[HTTP/3] --&amp;gt;|QUIC| D[Transport + Security]
+  &lt;/pre&gt;
+  &lt;h2 id=&#34;implementation-considerations&#34;&gt;Implementation Considerations&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;HTTP/3 is not just an upgrade, it&amp;rsquo;s a rethinking of how modern web protocols should work.&amp;rdquo; - Daniel Stenberg&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;migration-strategy&#34;&gt;Migration Strategy&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gradual Rollout&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Test in staging&lt;/li&gt;
+&lt;li&gt;Monitor metrics&lt;/li&gt;
+&lt;li&gt;Plan fallback options&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Infrastructure Updates&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Load balancer support&lt;/li&gt;
+&lt;li&gt;Monitoring tools&lt;/li&gt;
+&lt;li&gt;Security configurations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;browser-support&#34;&gt;Browser Support&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Browser&lt;/th&gt;
+          &lt;th&gt;Version&lt;/th&gt;
+          &lt;th&gt;Status&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Chrome&lt;/td&gt;
+          &lt;td&gt;85+&lt;/td&gt;
+          &lt;td&gt;Enabled&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Firefox&lt;/td&gt;
+          &lt;td&gt;88+&lt;/td&gt;
+          &lt;td&gt;Enabled&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Safari&lt;/td&gt;
+          &lt;td&gt;14+&lt;/td&gt;
+          &lt;td&gt;Experimental&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Edge&lt;/td&gt;
+          &lt;td&gt;85+&lt;/td&gt;
+          &lt;td&gt;Enabled&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;looking-ahead&#34;&gt;Looking Ahead&lt;/h2&gt;
+&lt;p&gt;The future of HTTP/3 looks promising, with increasing adoption and support across the web ecosystem.&lt;/p&gt;
+&lt;h3 id=&#34;key-takeaways&#34;&gt;Key Takeaways&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Built on QUIC for better performance&lt;/li&gt;
+&lt;li&gt;Improved mobile experience&lt;/li&gt;
+&lt;li&gt;Better security by default&lt;/li&gt;
+&lt;li&gt;Reduced latency&lt;/li&gt;
+&lt;li&gt;Improved congestion control&lt;/li&gt;
+&lt;/ol&gt;
+- http://localhost:1313/posts/my-third-sample-post/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>The Art of Sourdough: A Baker&#39;s Guide</title>
+        <link>http://localhost:1313/posts/my-second-sample-post/</link>
+        <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-second-sample-post/</guid>
+        <description>Azure Laboratory http://localhost:1313/posts/my-second-sample-post/ -&lt;h1 id=&#34;the-art-of-sourdough-a-bakers-guide&#34;&gt;The Art of Sourdough: A Baker&amp;rsquo;s Guide&lt;/h1&gt;
+&lt;p&gt;Making sourdough bread is both a science and an art. It requires patience, practice, and understanding of the fermentation process.&lt;/p&gt;
+&lt;h2 id=&#34;the-starter&#34;&gt;The Starter&lt;/h2&gt;
+&lt;p&gt;Your sourdough starter is a living ecosystem of wild yeast and bacteria. Here&amp;rsquo;s how to maintain it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Feed it regularly&lt;/li&gt;
+&lt;li&gt;Keep it at room temperature&lt;/li&gt;
+&lt;li&gt;Monitor its activity&lt;/li&gt;
+&lt;li&gt;Notice the smell and appearance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;feeding-schedule&#34;&gt;Feeding Schedule&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Morning Feed:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- 100g starter
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- 100g flour
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- 100g water
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Evening Feed:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Discard all but 50g
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Add 50g flour
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Add 50g water
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;the-basic-recipe&#34;&gt;The Basic Recipe&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Time and temperature are your most important ingredients.&amp;rdquo; - Chad Robertson&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;500g bread flour&lt;/li&gt;
+&lt;li&gt;350g water&lt;/li&gt;
+&lt;li&gt;100g active starter&lt;/li&gt;
+&lt;li&gt;10g salt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-process&#34;&gt;The Process&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Autolyse&lt;/strong&gt;: Mix flour and water&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bulk Fermentation&lt;/strong&gt;: 4-6 hours&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shaping&lt;/strong&gt;: Create tension&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Final Proof&lt;/strong&gt;: 12-14 hours&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Baking&lt;/strong&gt;: High heat, steam&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;troubleshooting-common-issues&#34;&gt;Troubleshooting Common Issues&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Problem&lt;/th&gt;
+          &lt;th&gt;Cause&lt;/th&gt;
+          &lt;th&gt;Solution&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Dense crumb&lt;/td&gt;
+          &lt;td&gt;Under-fermented&lt;/td&gt;
+          &lt;td&gt;Extend bulk time&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Too sour&lt;/td&gt;
+          &lt;td&gt;Over-fermented&lt;/td&gt;
+          &lt;td&gt;Reduce proof time&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Poor rise&lt;/td&gt;
+          &lt;td&gt;Weak starter&lt;/td&gt;
+          &lt;td&gt;Feed starter more&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+- http://localhost:1313/posts/my-second-sample-post/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Getting Started with Go Channels</title>
+        <link>http://localhost:1313/posts/my-sample-post/</link>
+        <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/my-sample-post/</guid>
+        <description>Azure Laboratory http://localhost:1313/posts/my-sample-post/ -&lt;h1 id=&#34;getting-started-with-go-channels&#34;&gt;Getting Started with Go Channels&lt;/h1&gt;
+&lt;p&gt;Go&amp;rsquo;s concurrency model is one of its standout features, and channels are at the heart of it. Let&amp;rsquo;s explore how channels work and why they&amp;rsquo;re so powerful.&lt;/p&gt;
+&lt;h2 id=&#34;what-are-channels&#34;&gt;What are Channels?&lt;/h2&gt;
+&lt;p&gt;Channels are typed conduits through which you can send and receive values. They act as pipes that connect concurrent goroutines, allowing them to communicate and synchronize their execution.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Don&amp;rsquo;t communicate by sharing memory; share memory by communicating.&amp;rdquo; - Rob Pike&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;basic-channel-operations&#34;&gt;Basic Channel Operations&lt;/h3&gt;
+&lt;p&gt;Here&amp;rsquo;s a simple example of channel usage:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// Create a new channel&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;messages&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; make(&lt;span style=&#34;color:#66d9ef&#34;&gt;chan&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// Send a message&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;go&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;messages&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, Channels!&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// Receive the message&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;msg&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;messages&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;msg&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;common-patterns&#34;&gt;Common Patterns&lt;/h2&gt;
+&lt;h3 id=&#34;producer-consumer-pattern&#34;&gt;Producer-Consumer Pattern&lt;/h3&gt;
+&lt;p&gt;One of the most common use cases for channels is the producer-consumer pattern:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Producer generates data&lt;/li&gt;
+&lt;li&gt;Consumer processes data&lt;/li&gt;
+&lt;li&gt;Channel coordinates the flow&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;buffered-vs-unbuffered&#34;&gt;Buffered vs Unbuffered&lt;/h3&gt;
+&lt;p&gt;Channels can be buffered or unbuffered:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Unbuffered: Synchronous, blocking&lt;/li&gt;
+&lt;li&gt;Buffered: Asynchronous up to buffer size&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;best-practices&#34;&gt;Best Practices&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Always close channels from the sending side&lt;/li&gt;
+&lt;li&gt;Handle closed channels gracefully&lt;/li&gt;
+&lt;li&gt;Use select for timeout handling&lt;/li&gt;
+&lt;li&gt;Document channel ownership&lt;/li&gt;
+&lt;/ol&gt;
+- http://localhost:1313/posts/my-sample-post/ - </description>
+        </item>
+    
+    
+  </channel>
+</rss> 

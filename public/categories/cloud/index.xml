@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on Azure Laboratory</title>
+    <link>http://localhost:1313/categories/cloud/</link>
+    <description>Recent content in Cloud on Azure Laboratory</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure API Management and APIOps: A Modern Approach to API Lifecycle Management</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s rapidly evolving digital landscape, APIs have become the backbone of modern applications and services. As organizations scale their API infrastructure, managing the complete API lifecycle becomes increasingly complex. This is where Azure API Management (APIM) and APIOps come into play, offering a robust solution for API lifecycle management and automation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;understanding-apiops&#34;&gt;Understanding APIOps&lt;/h2&gt;&#xA;&lt;p&gt;APIOps, an extension of DevOps principles applied to API management, represents a set of practices that combine API development with operations. It emphasizes automation, collaboration, and continuous improvement throughout the API lifecycle. By incorporating APIOps practices, organizations can achieve faster time-to-market, improved quality, and consistent API governance.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

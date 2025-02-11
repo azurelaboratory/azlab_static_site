@@ -1,0 +1,5 @@
+baseURL = 'https://azurelaboratory.com/'
+languageCode = 'en-us'
+title = 'Azure Laboratory'
+theme = 'diary'
+enableEmoji = true
